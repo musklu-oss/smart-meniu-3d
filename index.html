@@ -2,35 +2,173 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Smart Meniu 3D</title>
-  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@ar-js-org/ar.js@3.4.5/aframe/build/aframe-ar.js"></script>
   <style>
-    body { margin: 0; overflow: hidden; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #000; color: #fff; font-family: system-ui, sans-serif; overflow: hidden; }
+
+    #loading {
+      position: fixed; inset: 0; background: #111;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 20px; z-index: 100;
+    }
+    #loading h2 { font-size: 18px; font-weight: 500; color: #e8c97a; }
+    #progress-bar {
+      width: 200px; height: 4px; background: #333; border-radius: 2px; overflow: hidden;
+    }
+    #progress-fill {
+      height: 100%; background: #e8c97a; width: 0%; transition: width 0.3s;
+    }
+    #progress-text { font-size: 13px; color: #888; }
+
+    #ar-container { position: fixed; inset: 0; display: none; }
+
+    #product-overlay {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.85));
+      padding: 30px 24px 40px;
+      display: none; pointer-events: none; z-index: 10;
+    }
+    #product-overlay h1 { font-size: 20px; font-weight: 700; margin-bottom: 6px; }
+    #product-overlay p { font-size: 13px; color: #aaa; margin-bottom: 12px; }
+    #product-overlay .price { font-size: 28px; font-weight: 700; color: #e8c97a; }
   </style>
 </head>
 <body>
 
-  <a-scene
-    embedded
-    arjs="sourceType: webcam; debugUIEnabled: false;"
-    renderer="logarithmicDepthBuffer: true; antialias: true;"
-    vr-mode-ui="enabled: false">
+<div id="loading">
+  <h2>Pregatire AR...</h2>
+  <div id="progress-bar"><div id="progress-fill"></div></div>
+  <div id="progress-text">Se incarca...</div>
+</div>
 
-    <a-marker preset="hiro">
-      <a-entity
-        gltf-model="assets/models/ballotin_of_saithe_with_herbs.glb"
-        scale="0.05 0.05 0.05"
-        position="0 0 0"
-        rotation="-90 0 0"
-        animation="property: rotation; to: -90 360 0; dur: 8000; easing: linear; loop: true">
-      </a-entity>
-    </a-marker>
+<div id="ar-container"></div>
 
-    <a-entity camera></a-entity>
+<div id="product-overlay">
+  <h1>Ballotin of Saithe with Herbs</h1>
+  <p>File de cod negru cu unt de ierburi aromate</p>
+  <span class="price">52 RON</span>
+</div>
 
-  </a-scene>
+<script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-three.prod.js"></script>
+<script>
+const CACHE_DB = 'smart-meniu-cache';
+const CACHE_KEY = 'target-v1';
+
+function openDB() {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open(CACHE_DB, 1);
+    req.onupgradeneeded = e => e.target.result.createObjectStore('targets');
+    req.onsuccess = e => resolve(e.target.result);
+    req.onerror = reject;
+  });
+}
+
+async function getCached(db) {
+  return new Promise((resolve) => {
+    const tx = db.transaction('targets', 'readonly');
+    const req = tx.objectStore('targets').get(CACHE_KEY);
+    req.onsuccess = e => resolve(e.target.result || null);
+    req.onerror = () => resolve(null);
+  });
+}
+
+async function saveCache(db, buffer) {
+  return new Promise((resolve) => {
+    const tx = db.transaction('targets', 'readwrite');
+    tx.objectStore('targets').put(buffer, CACHE_KEY);
+    tx.oncomplete = resolve;
+  });
+}
+
+function setProgress(pct, text) {
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = text;
+}
+
+async function getTargetBuffer() {
+  const db = await openDB();
+  const cached = await getCached(db);
+  if (cached) {
+    setProgress(100, 'Cache gasit, se porneste AR...');
+    return cached;
+  }
+
+  setProgress(5, 'Se incarca imaginea...');
+  const img = new Image();
+  img.crossOrigin = 'anonymous';
+  img.src = 'assets/images/target.jpg';
+  await new Promise((res, rej) => { img.onload = res; img.onerror = rej; });
+
+  const canvas = document.createElement('canvas');
+  canvas.width = img.width;
+  canvas.height = img.height;
+  canvas.getContext('2d').drawImage(img, 0, 0);
+
+  setProgress(10, 'Compilare target AR...');
+  const compiler = new window.MINDAR.IMAGE.Compiler();
+  await compiler.compileImageTargets([canvas], (pct) => {
+    setProgress(10 + pct * 0.85, `Compilare: ${pct.toFixed(0)}%`);
+  });
+
+  const buffer = await compiler.exportData();
+  await saveCache(db, buffer);
+  setProgress(100, 'Gata!');
+  return buffer;
+}
+
+async function startAR(targetBuffer) {
+  const blob = new Blob([targetBuffer]);
+  const targetSrc = URL.createObjectURL(blob);
+
+  const container = document.getElementById('ar-container');
+  container.style.display = 'block';
+
+  const mindarThree = new window.MINDAR.IMAGE.MindARThree({
+    container,
+    imageTargetSrc: targetSrc,
+  });
+
+  const { renderer, scene, camera } = mindarThree;
+
+  const loader = new window.THREE.GLTFLoader();
+  const gltf = await new Promise((res, rej) => {
+    loader.load('assets/models/ballotin_of_saithe_with_herbs.glb', res, undefined, rej);
+  });
+
+  const model = gltf.scene;
+  model.scale.set(0.1, 0.1, 0.1);
+
+  const anchor = mindarThree.addAnchor(0);
+  anchor.group.add(model);
+
+  anchor.onTargetFound = () => {
+    document.getElementById('product-overlay').style.display = 'block';
+  };
+  anchor.onTargetLost = () => {
+    document.getElementById('product-overlay').style.display = 'none';
+  };
+
+  await mindarThree.start();
+
+  document.getElementById('loading').style.display = 'none';
+
+  renderer.setAnimationLoop(() => {
+    renderer.render(scene, camera);
+  });
+}
+
+(async () => {
+  try {
+    const buffer = await getTargetBuffer();
+    await startAR(buffer);
+  } catch (err) {
+    document.getElementById('progress-text').textContent = 'Eroare: ' + err.message;
+    console.error(err);
+  }
+})();
+</script>
 
 </body>
 </html>
