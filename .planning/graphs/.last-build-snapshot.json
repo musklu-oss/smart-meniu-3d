@@ -1,0 +1,4123 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-26T06:23:16.887Z",
+  "nodes": [
+    {
+      "label": "compile-target.mjs",
+      "file_type": "code",
+      "source_file": "compile-target.mjs",
+      "source_location": "L1",
+      "id": "compile_target_mjs",
+      "community": 13,
+      "norm_label": "compile-target.mjs"
+    },
+    {
+      "label": "NodeCompiler",
+      "file_type": "code",
+      "source_file": "compile-target.mjs",
+      "source_location": "L6",
+      "id": "meniu_3d_compile_target_nodecompiler",
+      "community": 13,
+      "norm_label": "nodecompiler"
+    },
+    {
+      "label": ".createProcessCanvas()",
+      "file_type": "code",
+      "source_file": "compile-target.mjs",
+      "source_location": "L7",
+      "id": "meniu_3d_compile_target_nodecompiler_createprocesscanvas",
+      "community": 13,
+      "norm_label": ".createprocesscanvas()"
+    },
+    {
+      "label": ".compileTrack()",
+      "file_type": "code",
+      "source_file": "compile-target.mjs",
+      "source_location": "L10",
+      "id": "meniu_3d_compile_target_nodecompiler_compiletrack",
+      "community": 13,
+      "norm_label": ".compiletrack()"
+    },
+    {
+      "label": "imagePath",
+      "file_type": "code",
+      "source_file": "compile-target.mjs",
+      "source_location": "L15",
+      "id": "meniu_3d_compile_target_imagepath",
+      "community": 13,
+      "norm_label": "imagepath"
+    },
+    {
+      "label": "outputPath",
+      "file_type": "code",
+      "source_file": "compile-target.mjs",
+      "source_location": "L16",
+      "id": "meniu_3d_compile_target_outputpath",
+      "community": 13,
+      "norm_label": "outputpath"
+    },
+    {
+      "label": "canvas",
+      "file_type": "code",
+      "source_file": "compile-target.mjs",
+      "source_location": "L19",
+      "id": "meniu_3d_compile_target_canvas",
+      "community": 13,
+      "norm_label": "canvas"
+    },
+    {
+      "label": "ctx",
+      "file_type": "code",
+      "source_file": "compile-target.mjs",
+      "source_location": "L20",
+      "id": "meniu_3d_compile_target_ctx",
+      "community": 13,
+      "norm_label": "ctx"
+    },
+    {
+      "label": "compiler",
+      "file_type": "code",
+      "source_file": "compile-target.mjs",
+      "source_location": "L23",
+      "id": "meniu_3d_compile_target_compiler",
+      "community": 13,
+      "norm_label": "compiler"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 15,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "meniu_3d_package_dependencies",
+      "community": 15,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "canvas",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "meniu_3d_package_dependencies_canvas",
+      "community": 15,
+      "norm_label": "canvas"
+    },
+    {
+      "label": "mind-ar",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "meniu_3d_package_dependencies_mind_ar",
+      "community": 15,
+      "norm_label": "mind-ar"
+    },
+    {
+      "label": "playwright",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "meniu_3d_package_dependencies_playwright",
+      "community": 15,
+      "norm_label": "playwright"
+    },
+    {
+      "label": "config.json",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L1",
+      "id": "planning_config_json",
+      "community": 2,
+      "norm_label": "config.json"
+    },
+    {
+      "label": "model_profile",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L2",
+      "id": "planning_config_model_profile",
+      "community": 2,
+      "norm_label": "model_profile"
+    },
+    {
+      "label": "commit_docs",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L3",
+      "id": "planning_config_commit_docs",
+      "community": 2,
+      "norm_label": "commit_docs"
+    },
+    {
+      "label": "parallelization",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L4",
+      "id": "planning_config_parallelization",
+      "community": 2,
+      "norm_label": "parallelization"
+    },
+    {
+      "label": "search_gitignored",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L5",
+      "id": "planning_config_search_gitignored",
+      "community": 2,
+      "norm_label": "search_gitignored"
+    },
+    {
+      "label": "brave_search",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L6",
+      "id": "planning_config_brave_search",
+      "community": 2,
+      "norm_label": "brave_search"
+    },
+    {
+      "label": "firecrawl",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L7",
+      "id": "planning_config_firecrawl",
+      "community": 2,
+      "norm_label": "firecrawl"
+    },
+    {
+      "label": "exa_search",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L8",
+      "id": "planning_config_exa_search",
+      "community": 2,
+      "norm_label": "exa_search"
+    },
+    {
+      "label": "git",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L9",
+      "id": "planning_config_git",
+      "community": 2,
+      "norm_label": "git"
+    },
+    {
+      "label": "branching_strategy",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L10",
+      "id": "planning_config_git_branching_strategy",
+      "community": 2,
+      "norm_label": "branching_strategy"
+    },
+    {
+      "label": "phase_branch_template",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L11",
+      "id": "planning_config_git_phase_branch_template",
+      "community": 2,
+      "norm_label": "phase_branch_template"
+    },
+    {
+      "label": "milestone_branch_template",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L12",
+      "id": "planning_config_git_milestone_branch_template",
+      "community": 2,
+      "norm_label": "milestone_branch_template"
+    },
+    {
+      "label": "quick_branch_template",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L13",
+      "id": "planning_config_git_quick_branch_template",
+      "community": 2,
+      "norm_label": "quick_branch_template"
+    },
+    {
+      "label": "workflow",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L15",
+      "id": "planning_config_workflow",
+      "community": 1,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "research",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L16",
+      "id": "planning_config_workflow_research",
+      "community": 1,
+      "norm_label": "research"
+    },
+    {
+      "label": "plan_check",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L17",
+      "id": "planning_config_workflow_plan_check",
+      "community": 1,
+      "norm_label": "plan_check"
+    },
+    {
+      "label": "verifier",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L18",
+      "id": "planning_config_workflow_verifier",
+      "community": 1,
+      "norm_label": "verifier"
+    },
+    {
+      "label": "nyquist_validation",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L19",
+      "id": "planning_config_workflow_nyquist_validation",
+      "community": 1,
+      "norm_label": "nyquist_validation"
+    },
+    {
+      "label": "auto_advance",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L20",
+      "id": "planning_config_workflow_auto_advance",
+      "community": 1,
+      "norm_label": "auto_advance"
+    },
+    {
+      "label": "node_repair",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L21",
+      "id": "planning_config_workflow_node_repair",
+      "community": 1,
+      "norm_label": "node_repair"
+    },
+    {
+      "label": "node_repair_budget",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L22",
+      "id": "planning_config_workflow_node_repair_budget",
+      "community": 1,
+      "norm_label": "node_repair_budget"
+    },
+    {
+      "label": "ui_phase",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L23",
+      "id": "planning_config_workflow_ui_phase",
+      "community": 1,
+      "norm_label": "ui_phase"
+    },
+    {
+      "label": "ui_safety_gate",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L24",
+      "id": "planning_config_workflow_ui_safety_gate",
+      "community": 1,
+      "norm_label": "ui_safety_gate"
+    },
+    {
+      "label": "ai_integration_phase",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L25",
+      "id": "planning_config_workflow_ai_integration_phase",
+      "community": 1,
+      "norm_label": "ai_integration_phase"
+    },
+    {
+      "label": "tdd_mode",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L26",
+      "id": "planning_config_workflow_tdd_mode",
+      "community": 1,
+      "norm_label": "tdd_mode"
+    },
+    {
+      "label": "text_mode",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L27",
+      "id": "planning_config_workflow_text_mode",
+      "community": 1,
+      "norm_label": "text_mode"
+    },
+    {
+      "label": "research_before_questions",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L28",
+      "id": "planning_config_workflow_research_before_questions",
+      "community": 1,
+      "norm_label": "research_before_questions"
+    },
+    {
+      "label": "discuss_mode",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L29",
+      "id": "planning_config_workflow_discuss_mode",
+      "community": 1,
+      "norm_label": "discuss_mode"
+    },
+    {
+      "label": "skip_discuss",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L30",
+      "id": "planning_config_workflow_skip_discuss",
+      "community": 1,
+      "norm_label": "skip_discuss"
+    },
+    {
+      "label": "code_review",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L31",
+      "id": "planning_config_workflow_code_review",
+      "community": 1,
+      "norm_label": "code_review"
+    },
+    {
+      "label": "code_review_depth",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L32",
+      "id": "planning_config_workflow_code_review_depth",
+      "community": 1,
+      "norm_label": "code_review_depth"
+    },
+    {
+      "label": "code_review_command",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L33",
+      "id": "planning_config_workflow_code_review_command",
+      "community": 1,
+      "norm_label": "code_review_command"
+    },
+    {
+      "label": "pattern_mapper",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L34",
+      "id": "planning_config_workflow_pattern_mapper",
+      "community": 1,
+      "norm_label": "pattern_mapper"
+    },
+    {
+      "label": "plan_bounce",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L35",
+      "id": "planning_config_workflow_plan_bounce",
+      "community": 1,
+      "norm_label": "plan_bounce"
+    },
+    {
+      "label": "plan_bounce_script",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L36",
+      "id": "planning_config_workflow_plan_bounce_script",
+      "community": 1,
+      "norm_label": "plan_bounce_script"
+    },
+    {
+      "label": "plan_bounce_passes",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L37",
+      "id": "planning_config_workflow_plan_bounce_passes",
+      "community": 1,
+      "norm_label": "plan_bounce_passes"
+    },
+    {
+      "label": "auto_prune_state",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L38",
+      "id": "planning_config_workflow_auto_prune_state",
+      "community": 1,
+      "norm_label": "auto_prune_state"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L40",
+      "id": "planning_config_hooks",
+      "community": 2,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "context_warnings",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L41",
+      "id": "planning_config_hooks_context_warnings",
+      "community": 2,
+      "norm_label": "context_warnings"
+    },
+    {
+      "label": "project_code",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L43",
+      "id": "planning_config_project_code",
+      "community": 2,
+      "norm_label": "project_code"
+    },
+    {
+      "label": "phase_naming",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L44",
+      "id": "planning_config_phase_naming",
+      "community": 2,
+      "norm_label": "phase_naming"
+    },
+    {
+      "label": "agent_skills",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L45",
+      "id": "planning_config_agent_skills",
+      "community": 2,
+      "norm_label": "agent_skills"
+    },
+    {
+      "label": "claude_md_path",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L46",
+      "id": "planning_config_claude_md_path",
+      "community": 2,
+      "norm_label": "claude_md_path"
+    },
+    {
+      "label": "mode",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L47",
+      "id": "planning_config_mode",
+      "community": 2,
+      "norm_label": "mode"
+    },
+    {
+      "label": "granularity",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L48",
+      "id": "planning_config_granularity",
+      "community": 2,
+      "norm_label": "granularity"
+    },
+    {
+      "label": "graphify",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L49",
+      "id": "planning_config_graphify",
+      "community": 2,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "enabled",
+      "file_type": "code",
+      "source_file": ".planning/config.json",
+      "source_location": "L50",
+      "id": "planning_config_graphify_enabled",
+      "community": 2,
+      "norm_label": "enabled"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 0,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "Project",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L2",
+      "id": "meniu_3d_claude_project",
+      "community": 0,
+      "norm_label": "project"
+    },
+    {
+      "label": "Constraints",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L10",
+      "id": "meniu_3d_claude_constraints",
+      "community": 0,
+      "norm_label": "constraints"
+    },
+    {
+      "label": "Technology Stack",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L19",
+      "id": "meniu_3d_claude_technology_stack",
+      "community": 0,
+      "norm_label": "technology stack"
+    },
+    {
+      "label": "Languages",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L21",
+      "id": "meniu_3d_claude_languages",
+      "community": 0,
+      "norm_label": "languages"
+    },
+    {
+      "label": "Runtime",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L26",
+      "id": "meniu_3d_claude_runtime",
+      "community": 0,
+      "norm_label": "runtime"
+    },
+    {
+      "label": "Frameworks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L31",
+      "id": "meniu_3d_claude_frameworks",
+      "community": 0,
+      "norm_label": "frameworks"
+    },
+    {
+      "label": "Key Dependencies",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L38",
+      "id": "meniu_3d_claude_key_dependencies",
+      "community": 0,
+      "norm_label": "key dependencies"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L44",
+      "id": "meniu_3d_claude_configuration",
+      "community": 0,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "Platform Requirements",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L52",
+      "id": "meniu_3d_claude_platform_requirements",
+      "community": 0,
+      "norm_label": "platform requirements"
+    },
+    {
+      "label": "Conventions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L63",
+      "id": "meniu_3d_claude_conventions",
+      "community": 0,
+      "norm_label": "conventions"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L65",
+      "id": "meniu_3d_claude_overview",
+      "community": 0,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Naming Patterns",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L66",
+      "id": "meniu_3d_claude_naming_patterns",
+      "community": 0,
+      "norm_label": "naming patterns"
+    },
+    {
+      "label": "Code Style",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L76",
+      "id": "meniu_3d_claude_code_style",
+      "community": 0,
+      "norm_label": "code style"
+    },
+    {
+      "label": "Import Organization",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L85",
+      "id": "meniu_3d_claude_import_organization",
+      "community": 0,
+      "norm_label": "import organization"
+    },
+    {
+      "label": "Async Patterns",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L90",
+      "id": "meniu_3d_claude_async_patterns",
+      "community": 0,
+      "norm_label": "async patterns"
+    },
+    {
+      "label": "Error Handling",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L91",
+      "id": "meniu_3d_claude_error_handling",
+      "community": 0,
+      "norm_label": "error handling"
+    },
+    {
+      "label": "DOM Interaction Patterns",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L98",
+      "id": "meniu_3d_claude_dom_interaction_patterns",
+      "community": 0,
+      "norm_label": "dom interaction patterns"
+    },
+    {
+      "label": "Language Mix",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L103",
+      "id": "meniu_3d_claude_language_mix",
+      "community": 0,
+      "norm_label": "language mix"
+    },
+    {
+      "label": "Function Design",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L109",
+      "id": "meniu_3d_claude_function_design",
+      "community": 0,
+      "norm_label": "function design"
+    },
+    {
+      "label": "Module Design",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L110",
+      "id": "meniu_3d_claude_module_design",
+      "community": 0,
+      "norm_label": "module design"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L114",
+      "id": "meniu_3d_claude_architecture",
+      "community": 0,
+      "norm_label": "architecture"
+    },
+    {
+      "label": "Pattern Overview",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L116",
+      "id": "meniu_3d_claude_pattern_overview",
+      "community": 0,
+      "norm_label": "pattern overview"
+    },
+    {
+      "label": "Layers",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L121",
+      "id": "meniu_3d_claude_layers",
+      "community": 0,
+      "norm_label": "layers"
+    },
+    {
+      "label": "Data Flow",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L142",
+      "id": "meniu_3d_claude_data_flow",
+      "community": 0,
+      "norm_label": "data flow"
+    },
+    {
+      "label": "Key Abstractions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L146",
+      "id": "meniu_3d_claude_key_abstractions",
+      "community": 0,
+      "norm_label": "key abstractions"
+    },
+    {
+      "label": "Entry Points",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L156",
+      "id": "meniu_3d_claude_entry_points",
+      "community": 0,
+      "norm_label": "entry points"
+    },
+    {
+      "label": "Error Handling",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L163",
+      "id": "meniu_3d_claude_error_handling_163",
+      "community": 0,
+      "norm_label": "error handling"
+    },
+    {
+      "label": "Cross-Cutting Concerns",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L167",
+      "id": "meniu_3d_claude_cross_cutting_concerns",
+      "community": 0,
+      "norm_label": "cross-cutting concerns"
+    },
+    {
+      "label": "Project Skills",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L171",
+      "id": "meniu_3d_claude_project_skills",
+      "community": 0,
+      "norm_label": "project skills"
+    },
+    {
+      "label": "GSD Workflow Enforcement",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L177",
+      "id": "meniu_3d_claude_gsd_workflow_enforcement",
+      "community": 0,
+      "norm_label": "gsd workflow enforcement"
+    },
+    {
+      "label": "Developer Profile",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L192",
+      "id": "meniu_3d_claude_developer_profile",
+      "community": 0,
+      "norm_label": "developer profile"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 16,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Smart Meniu 3D",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "meniu_3d_readme_smart_meniu_3d",
+      "community": 16,
+      "norm_label": "smart meniu 3d"
+    },
+    {
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "id": "meniu_3d_readme_stack",
+      "community": 16,
+      "norm_label": "stack"
+    },
+    {
+      "label": "PROJECT.md",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L1",
+      "id": "planning_project_md",
+      "community": 5,
+      "norm_label": "project.md"
+    },
+    {
+      "label": "Smart Meniu 3D",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L1",
+      "id": "planning_project_smart_meniu_3d",
+      "community": 5,
+      "norm_label": "smart meniu 3d"
+    },
+    {
+      "label": "What This Is",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L3",
+      "id": "planning_project_what_this_is",
+      "community": 5,
+      "norm_label": "what this is"
+    },
+    {
+      "label": "Core Value",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L7",
+      "id": "planning_project_core_value",
+      "community": 5,
+      "norm_label": "core value"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L11",
+      "id": "planning_project_requirements",
+      "community": 5,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Validated",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L13",
+      "id": "planning_project_validated",
+      "community": 5,
+      "norm_label": "validated"
+    },
+    {
+      "label": "Active",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L21",
+      "id": "planning_project_active",
+      "community": 5,
+      "norm_label": "active"
+    },
+    {
+      "label": "Out of Scope",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L26",
+      "id": "planning_project_out_of_scope",
+      "community": 5,
+      "norm_label": "out of scope"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L34",
+      "id": "planning_project_context",
+      "community": 5,
+      "norm_label": "context"
+    },
+    {
+      "label": "Constraints",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L43",
+      "id": "planning_project_constraints",
+      "community": 5,
+      "norm_label": "constraints"
+    },
+    {
+      "label": "Key Decisions",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L50",
+      "id": "planning_project_key_decisions",
+      "community": 5,
+      "norm_label": "key decisions"
+    },
+    {
+      "label": "Evolution",
+      "file_type": "document",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L61",
+      "id": "planning_project_evolution",
+      "community": 5,
+      "norm_label": "evolution"
+    },
+    {
+      "label": "REQUIREMENTS.md",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L1",
+      "id": "planning_requirements_md",
+      "community": 9,
+      "norm_label": "requirements.md"
+    },
+    {
+      "label": "Requirements: Smart Meniu 3D",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L1",
+      "id": "planning_requirements_requirements_smart_meniu_3d",
+      "community": 9,
+      "norm_label": "requirements: smart meniu 3d"
+    },
+    {
+      "label": "v1 Requirements",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L6",
+      "id": "planning_requirements_v1_requirements",
+      "community": 9,
+      "norm_label": "v1 requirements"
+    },
+    {
+      "label": "AR Core (Implementat)",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L8",
+      "id": "planning_requirements_ar_core_implementat",
+      "community": 9,
+      "norm_label": "ar core (implementat)"
+    },
+    {
+      "label": "UI Overlay (Implementat)",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L17",
+      "id": "planning_requirements_ui_overlay_implementat",
+      "community": 9,
+      "norm_label": "ui overlay (implementat)"
+    },
+    {
+      "label": "Deploy & Acces (Active)",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L24",
+      "id": "planning_requirements_deploy_acces_active",
+      "community": 9,
+      "norm_label": "deploy & acces (active)"
+    },
+    {
+      "label": "v2 Requirements",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L30",
+      "id": "planning_requirements_v2_requirements",
+      "community": 9,
+      "norm_label": "v2 requirements"
+    },
+    {
+      "label": "Multi-produs",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L32",
+      "id": "planning_requirements_multi_produs",
+      "community": 9,
+      "norm_label": "multi-produs"
+    },
+    {
+      "label": "UX avansat",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L37",
+      "id": "planning_requirements_ux_avansat",
+      "community": 9,
+      "norm_label": "ux avansat"
+    },
+    {
+      "label": "Out of Scope",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L43",
+      "id": "planning_requirements_out_of_scope",
+      "community": 9,
+      "norm_label": "out of scope"
+    },
+    {
+      "label": "Traceability",
+      "file_type": "document",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L53",
+      "id": "planning_requirements_traceability",
+      "community": 9,
+      "norm_label": "traceability"
+    },
+    {
+      "label": "ROADMAP.md",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L1",
+      "id": "planning_roadmap_md",
+      "community": 6,
+      "norm_label": "roadmap.md"
+    },
+    {
+      "label": "Roadmap: Smart Meniu 3D",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L1",
+      "id": "planning_roadmap_roadmap_smart_meniu_3d",
+      "community": 6,
+      "norm_label": "roadmap: smart meniu 3d"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L3",
+      "id": "planning_roadmap_overview",
+      "community": 6,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Phases",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L7",
+      "id": "planning_roadmap_phases",
+      "community": 6,
+      "norm_label": "phases"
+    },
+    {
+      "label": "Phase Details",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L16",
+      "id": "planning_roadmap_phase_details",
+      "community": 6,
+      "norm_label": "phase details"
+    },
+    {
+      "label": "Phase 1: Structură & Setup",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L18",
+      "id": "planning_roadmap_phase_1_structură_setup",
+      "community": 6,
+      "norm_label": "phase 1: structura & setup"
+    },
+    {
+      "label": "Phase 2: Model 3D",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L28",
+      "id": "planning_roadmap_phase_2_model_3d",
+      "community": 6,
+      "norm_label": "phase 2: model 3d"
+    },
+    {
+      "label": "Phase 3: Image Target",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L37",
+      "id": "planning_roadmap_phase_3_image_target",
+      "community": 6,
+      "norm_label": "phase 3: image target"
+    },
+    {
+      "label": "Phase 4: AR Image Tracking",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L46",
+      "id": "planning_roadmap_phase_4_ar_image_tracking",
+      "community": 6,
+      "norm_label": "phase 4: ar image tracking"
+    },
+    {
+      "label": "Phase 5: UI Overlay",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L56",
+      "id": "planning_roadmap_phase_5_ui_overlay",
+      "community": 6,
+      "norm_label": "phase 5: ui overlay"
+    },
+    {
+      "label": "Phase 6: Deploy & QR",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L66",
+      "id": "planning_roadmap_phase_6_deploy_qr",
+      "community": 6,
+      "norm_label": "phase 6: deploy & qr"
+    },
+    {
+      "label": "Progress",
+      "file_type": "document",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L77",
+      "id": "planning_roadmap_progress",
+      "community": 6,
+      "norm_label": "progress"
+    },
+    {
+      "label": "STATE.md",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L1",
+      "id": "planning_state_md",
+      "community": 10,
+      "norm_label": "state.md"
+    },
+    {
+      "label": "Project State",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L1",
+      "id": "planning_state_project_state",
+      "community": 10,
+      "norm_label": "project state"
+    },
+    {
+      "label": "Project Reference",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L3",
+      "id": "planning_state_project_reference",
+      "community": 10,
+      "norm_label": "project reference"
+    },
+    {
+      "label": "Current Position",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L10",
+      "id": "planning_state_current_position",
+      "community": 10,
+      "norm_label": "current position"
+    },
+    {
+      "label": "Performance Metrics",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L19",
+      "id": "planning_state_performance_metrics",
+      "community": 10,
+      "norm_label": "performance metrics"
+    },
+    {
+      "label": "Accumulated Context",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L37",
+      "id": "planning_state_accumulated_context",
+      "community": 10,
+      "norm_label": "accumulated context"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L39",
+      "id": "planning_state_decisions",
+      "community": 10,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "Pending Todos",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L45",
+      "id": "planning_state_pending_todos",
+      "community": 10,
+      "norm_label": "pending todos"
+    },
+    {
+      "label": "Blockers/Concerns",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L49",
+      "id": "planning_state_blockers_concerns",
+      "community": 10,
+      "norm_label": "blockers/concerns"
+    },
+    {
+      "label": "Deferred Items",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L54",
+      "id": "planning_state_deferred_items",
+      "community": 10,
+      "norm_label": "deferred items"
+    },
+    {
+      "label": "Session Continuity",
+      "file_type": "document",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L61",
+      "id": "planning_state_session_continuity",
+      "community": 10,
+      "norm_label": "session continuity"
+    },
+    {
+      "label": "ARCHITECTURE.md",
+      "file_type": "document",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L1",
+      "id": "planning_codebase_architecture_md",
+      "community": 11,
+      "norm_label": "architecture.md"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L1",
+      "id": "codebase_architecture_architecture",
+      "community": 11,
+      "norm_label": "architecture"
+    },
+    {
+      "label": "Pattern Overview",
+      "file_type": "document",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L5",
+      "id": "codebase_architecture_pattern_overview",
+      "community": 11,
+      "norm_label": "pattern overview"
+    },
+    {
+      "label": "Layers",
+      "file_type": "document",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L15",
+      "id": "codebase_architecture_layers",
+      "community": 11,
+      "norm_label": "layers"
+    },
+    {
+      "label": "Data Flow",
+      "file_type": "document",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L45",
+      "id": "codebase_architecture_data_flow",
+      "community": 11,
+      "norm_label": "data flow"
+    },
+    {
+      "label": "Key Abstractions",
+      "file_type": "document",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L79",
+      "id": "codebase_architecture_key_abstractions",
+      "community": 11,
+      "norm_label": "key abstractions"
+    },
+    {
+      "label": "Entry Points",
+      "file_type": "document",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L96",
+      "id": "codebase_architecture_entry_points",
+      "community": 11,
+      "norm_label": "entry points"
+    },
+    {
+      "label": "Error Handling",
+      "file_type": "document",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L108",
+      "id": "codebase_architecture_error_handling",
+      "community": 11,
+      "norm_label": "error handling"
+    },
+    {
+      "label": "Cross-Cutting Concerns",
+      "file_type": "document",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L117",
+      "id": "codebase_architecture_cross_cutting_concerns",
+      "community": 11,
+      "norm_label": "cross-cutting concerns"
+    },
+    {
+      "label": "CONCERNS.md",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L1",
+      "id": "planning_codebase_concerns_md",
+      "community": 7,
+      "norm_label": "concerns.md"
+    },
+    {
+      "label": "Codebase Concerns",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L1",
+      "id": "codebase_concerns_codebase_concerns",
+      "community": 7,
+      "norm_label": "codebase concerns"
+    },
+    {
+      "label": "Tech Debt",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L7",
+      "id": "codebase_concerns_tech_debt",
+      "community": 7,
+      "norm_label": "tech debt"
+    },
+    {
+      "label": "Known Bugs",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L41",
+      "id": "codebase_concerns_known_bugs",
+      "community": 7,
+      "norm_label": "known bugs"
+    },
+    {
+      "label": "Security Considerations",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L63",
+      "id": "codebase_concerns_security_considerations",
+      "community": 7,
+      "norm_label": "security considerations"
+    },
+    {
+      "label": "Performance Bottlenecks",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L85",
+      "id": "codebase_concerns_performance_bottlenecks",
+      "community": 7,
+      "norm_label": "performance bottlenecks"
+    },
+    {
+      "label": "Fragile Areas",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L107",
+      "id": "codebase_concerns_fragile_areas",
+      "community": 7,
+      "norm_label": "fragile areas"
+    },
+    {
+      "label": "Scaling Limits",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L134",
+      "id": "codebase_concerns_scaling_limits",
+      "community": 7,
+      "norm_label": "scaling limits"
+    },
+    {
+      "label": "Dependencies at Risk",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L148",
+      "id": "codebase_concerns_dependencies_at_risk",
+      "community": 7,
+      "norm_label": "dependencies at risk"
+    },
+    {
+      "label": "Missing Critical Features",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L167",
+      "id": "codebase_concerns_missing_critical_features",
+      "community": 7,
+      "norm_label": "missing critical features"
+    },
+    {
+      "label": "Test Coverage Gaps",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L183",
+      "id": "codebase_concerns_test_coverage_gaps",
+      "community": 7,
+      "norm_label": "test coverage gaps"
+    },
+    {
+      "label": "CONVENTIONS.md",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L1",
+      "id": "planning_codebase_conventions_md",
+      "community": 4,
+      "norm_label": "conventions.md"
+    },
+    {
+      "label": "Coding Conventions",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L1",
+      "id": "codebase_conventions_coding_conventions",
+      "community": 4,
+      "norm_label": "coding conventions"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L5",
+      "id": "codebase_conventions_overview",
+      "community": 4,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Naming Patterns",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L11",
+      "id": "codebase_conventions_naming_patterns",
+      "community": 4,
+      "norm_label": "naming patterns"
+    },
+    {
+      "label": "Code Style",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L34",
+      "id": "codebase_conventions_code_style",
+      "community": 4,
+      "norm_label": "code style"
+    },
+    {
+      "label": "Import Organization",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L53",
+      "id": "codebase_conventions_import_organization",
+      "community": 4,
+      "norm_label": "import organization"
+    },
+    {
+      "label": "Async Patterns",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L67",
+      "id": "codebase_conventions_async_patterns",
+      "community": 4,
+      "norm_label": "async patterns"
+    },
+    {
+      "label": "code:js (function openDB() {)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L73",
+      "id": "codebase_conventions_codeblock_1",
+      "community": 4,
+      "norm_label": "code:js (function opendb() {)"
+    },
+    {
+      "label": "code:js (await new Promise((res, rej) => { img.onload = res; img.oner)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L85",
+      "id": "codebase_conventions_codeblock_2",
+      "community": 4,
+      "norm_label": "code:js (await new promise((res, rej) => { img.onload = res; img.oner)"
+    },
+    {
+      "label": "code:js (const gltf = await new Promise((res, rej) => {)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L90",
+      "id": "codebase_conventions_codeblock_3",
+      "community": 4,
+      "norm_label": "code:js (const gltf = await new promise((res, rej) => {)"
+    },
+    {
+      "label": "code:js ((async () => {)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L97",
+      "id": "codebase_conventions_codeblock_4",
+      "community": 4,
+      "norm_label": "code:js ((async () => {)"
+    },
+    {
+      "label": "Error Handling",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L113",
+      "id": "codebase_conventions_error_handling",
+      "community": 4,
+      "norm_label": "error handling"
+    },
+    {
+      "label": "DOM Interaction Patterns",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L131",
+      "id": "codebase_conventions_dom_interaction_patterns",
+      "community": 4,
+      "norm_label": "dom interaction patterns"
+    },
+    {
+      "label": "Language Mix",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L140",
+      "id": "codebase_conventions_language_mix",
+      "community": 4,
+      "norm_label": "language mix"
+    },
+    {
+      "label": "Function Design",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L152",
+      "id": "codebase_conventions_function_design",
+      "community": 4,
+      "norm_label": "function design"
+    },
+    {
+      "label": "Module Design",
+      "file_type": "document",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L164",
+      "id": "codebase_conventions_module_design",
+      "community": 4,
+      "norm_label": "module design"
+    },
+    {
+      "label": "INTEGRATIONS.md",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L1",
+      "id": "planning_codebase_integrations_md",
+      "community": 8,
+      "norm_label": "integrations.md"
+    },
+    {
+      "label": "External Integrations",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L1",
+      "id": "codebase_integrations_external_integrations",
+      "community": 8,
+      "norm_label": "external integrations"
+    },
+    {
+      "label": "CDN Libraries",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L5",
+      "id": "codebase_integrations_cdn_libraries",
+      "community": 8,
+      "norm_label": "cdn libraries"
+    },
+    {
+      "label": "Data Storage",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L21",
+      "id": "codebase_integrations_data_storage",
+      "community": 8,
+      "norm_label": "data storage"
+    },
+    {
+      "label": "Authentication & Identity",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L40",
+      "id": "codebase_integrations_authentication_identity",
+      "community": 8,
+      "norm_label": "authentication & identity"
+    },
+    {
+      "label": "Device APIs",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L45",
+      "id": "codebase_integrations_device_apis",
+      "community": 8,
+      "norm_label": "device apis"
+    },
+    {
+      "label": "Monitoring & Observability",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L55",
+      "id": "codebase_integrations_monitoring_observability",
+      "community": 8,
+      "norm_label": "monitoring & observability"
+    },
+    {
+      "label": "CI/CD & Deployment",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L64",
+      "id": "codebase_integrations_ci_cd_deployment",
+      "community": 8,
+      "norm_label": "ci/cd & deployment"
+    },
+    {
+      "label": "Environment Configuration",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L72",
+      "id": "codebase_integrations_environment_configuration",
+      "community": 8,
+      "norm_label": "environment configuration"
+    },
+    {
+      "label": "Webhooks & Callbacks",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L80",
+      "id": "codebase_integrations_webhooks_callbacks",
+      "community": 8,
+      "norm_label": "webhooks & callbacks"
+    },
+    {
+      "label": "External Data Sources",
+      "file_type": "document",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L88",
+      "id": "codebase_integrations_external_data_sources",
+      "community": 8,
+      "norm_label": "external data sources"
+    },
+    {
+      "label": "STACK.md",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L1",
+      "id": "planning_codebase_stack_md",
+      "community": 14,
+      "norm_label": "stack.md"
+    },
+    {
+      "label": "Technology Stack",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L1",
+      "id": "codebase_stack_technology_stack",
+      "community": 14,
+      "norm_label": "technology stack"
+    },
+    {
+      "label": "Languages",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L5",
+      "id": "codebase_stack_languages",
+      "community": 14,
+      "norm_label": "languages"
+    },
+    {
+      "label": "Runtime",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L15",
+      "id": "codebase_stack_runtime",
+      "community": 14,
+      "norm_label": "runtime"
+    },
+    {
+      "label": "Frameworks",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L25",
+      "id": "codebase_stack_frameworks",
+      "community": 14,
+      "norm_label": "frameworks"
+    },
+    {
+      "label": "Key Dependencies",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L41",
+      "id": "codebase_stack_key_dependencies",
+      "community": 14,
+      "norm_label": "key dependencies"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L56",
+      "id": "codebase_stack_configuration",
+      "community": 14,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "Platform Requirements",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L71",
+      "id": "codebase_stack_platform_requirements",
+      "community": 14,
+      "norm_label": "platform requirements"
+    },
+    {
+      "label": "STRUCTURE.md",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L1",
+      "id": "planning_codebase_structure_md",
+      "community": 12,
+      "norm_label": "structure.md"
+    },
+    {
+      "label": "Codebase Structure",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L1",
+      "id": "codebase_structure_codebase_structure",
+      "community": 12,
+      "norm_label": "codebase structure"
+    },
+    {
+      "label": "Directory Layout",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L5",
+      "id": "codebase_structure_directory_layout",
+      "community": 12,
+      "norm_label": "directory layout"
+    },
+    {
+      "label": "code:block1 (meniu 3D/)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L7",
+      "id": "codebase_structure_codeblock_1",
+      "community": 12,
+      "norm_label": "code:block1 (meniu 3d/)"
+    },
+    {
+      "label": "Directory Purposes",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L30",
+      "id": "codebase_structure_directory_purposes",
+      "community": 12,
+      "norm_label": "directory purposes"
+    },
+    {
+      "label": "Key File Locations",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L55",
+      "id": "codebase_structure_key_file_locations",
+      "community": 12,
+      "norm_label": "key file locations"
+    },
+    {
+      "label": "Naming Conventions",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L80",
+      "id": "codebase_structure_naming_conventions",
+      "community": 12,
+      "norm_label": "naming conventions"
+    },
+    {
+      "label": "Where to Add New Code",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L99",
+      "id": "codebase_structure_where_to_add_new_code",
+      "community": 12,
+      "norm_label": "where to add new code"
+    },
+    {
+      "label": "Special Directories",
+      "file_type": "document",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L121",
+      "id": "codebase_structure_special_directories",
+      "community": 12,
+      "norm_label": "special directories"
+    },
+    {
+      "label": "TESTING.md",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L1",
+      "id": "planning_codebase_testing_md",
+      "community": 3,
+      "norm_label": "testing.md"
+    },
+    {
+      "label": "Testing Patterns",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L1",
+      "id": "codebase_testing_testing_patterns",
+      "community": 3,
+      "norm_label": "testing patterns"
+    },
+    {
+      "label": "Current State",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L5",
+      "id": "codebase_testing_current_state",
+      "community": 3,
+      "norm_label": "current state"
+    },
+    {
+      "label": "Test Framework",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L11",
+      "id": "codebase_testing_test_framework",
+      "community": 3,
+      "norm_label": "test framework"
+    },
+    {
+      "label": "code:bash (# None configured yet — these would be the standard commands)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L22",
+      "id": "codebase_testing_codeblock_1",
+      "community": 3,
+      "norm_label": "code:bash (# none configured yet — these would be the standard commands)"
+    },
+    {
+      "label": "What Playwright Is Suited For Here",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L32",
+      "id": "codebase_testing_what_playwright_is_suited_for_here",
+      "community": 3,
+      "norm_label": "what playwright is suited for here"
+    },
+    {
+      "label": "Recommended Test Structure (not yet implemented)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L42",
+      "id": "codebase_testing_recommended_test_structure_not_yet_implemented",
+      "community": 3,
+      "norm_label": "recommended test structure (not yet implemented)"
+    },
+    {
+      "label": "code:block2 (meniu 3D/)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L45",
+      "id": "codebase_testing_codeblock_2",
+      "community": 3,
+      "norm_label": "code:block2 (meniu 3d/)"
+    },
+    {
+      "label": "Recommended Test Patterns",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L57",
+      "id": "codebase_testing_recommended_test_patterns",
+      "community": 3,
+      "norm_label": "recommended test patterns"
+    },
+    {
+      "label": "code:js (import { test, expect } from '@playwright/test';)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L60",
+      "id": "codebase_testing_codeblock_3",
+      "community": 3,
+      "norm_label": "code:js (import { test, expect } from '@playwright/test';)"
+    },
+    {
+      "label": "code:js (test('uses cached target on second load', async ({ page, con)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L71",
+      "id": "codebase_testing_codeblock_4",
+      "community": 3,
+      "norm_label": "code:js (test('uses cached target on second load', async ({ page, con)"
+    },
+    {
+      "label": "code:js (test('shows error message when assets fail to load', async ()",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L87",
+      "id": "codebase_testing_codeblock_5",
+      "community": 3,
+      "norm_label": "code:js (test('shows error message when assets fail to load', async ()"
+    },
+    {
+      "label": "Mocking",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L97",
+      "id": "codebase_testing_mocking",
+      "community": 3,
+      "norm_label": "mocking"
+    },
+    {
+      "label": "Playwright Configuration (recommended setup)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L111",
+      "id": "codebase_testing_playwright_configuration_recommended_setup",
+      "community": 3,
+      "norm_label": "playwright configuration (recommended setup)"
+    },
+    {
+      "label": "code:js (import { defineConfig } from '@playwright/test';)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L115",
+      "id": "codebase_testing_codeblock_6",
+      "community": 3,
+      "norm_label": "code:js (import { defineconfig } from '@playwright/test';)"
+    },
+    {
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L133",
+      "id": "codebase_testing_codeblock_7",
+      "community": 3,
+      "norm_label": "code:json ({)"
+    },
+    {
+      "label": "Coverage",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L145",
+      "id": "codebase_testing_coverage",
+      "community": 3,
+      "norm_label": "coverage"
+    },
+    {
+      "label": "Test Types",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L153",
+      "id": "codebase_testing_test_types",
+      "community": 3,
+      "norm_label": "test types"
+    },
+    {
+      "label": "Manual Test Checklist",
+      "file_type": "document",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L168",
+      "id": "codebase_testing_manual_test_checklist",
+      "community": 3,
+      "norm_label": "manual test checklist"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compile-target.mjs",
+      "source_location": "L6",
+      "weight": 1,
+      "source": "compile_target_mjs",
+      "target": "meniu_3d_compile_target_nodecompiler",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compile-target.mjs",
+      "source_location": "L15",
+      "weight": 1,
+      "source": "compile_target_mjs",
+      "target": "meniu_3d_compile_target_imagepath",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compile-target.mjs",
+      "source_location": "L16",
+      "weight": 1,
+      "source": "compile_target_mjs",
+      "target": "meniu_3d_compile_target_outputpath",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compile-target.mjs",
+      "source_location": "L19",
+      "weight": 1,
+      "source": "compile_target_mjs",
+      "target": "meniu_3d_compile_target_canvas",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compile-target.mjs",
+      "source_location": "L20",
+      "weight": 1,
+      "source": "compile_target_mjs",
+      "target": "meniu_3d_compile_target_ctx",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compile-target.mjs",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "compile_target_mjs",
+      "target": "meniu_3d_compile_target_compiler",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "compile-target.mjs",
+      "source_location": "L7",
+      "weight": 1,
+      "source": "meniu_3d_compile_target_nodecompiler",
+      "target": "meniu_3d_compile_target_nodecompiler_createprocesscanvas",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "compile-target.mjs",
+      "source_location": "L10",
+      "weight": 1,
+      "source": "meniu_3d_compile_target_nodecompiler",
+      "target": "meniu_3d_compile_target_nodecompiler_compiletrack",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1,
+      "source": "package_json",
+      "target": "meniu_3d_package_dependencies",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "meniu_3d_package_dependencies",
+      "target": "meniu_3d_package_dependencies_canvas",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1,
+      "source": "meniu_3d_package_dependencies",
+      "target": "meniu_3d_package_dependencies_mind_ar",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "meniu_3d_package_dependencies",
+      "target": "meniu_3d_package_dependencies_playwright",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L2",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_model_profile",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_commit_docs",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L4",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_parallelization",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_search_gitignored",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L6",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_brave_search",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L7",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_firecrawl",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_exa_search",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L9",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_git",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L15",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_workflow",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L40",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_hooks",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L43",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_project_code",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L44",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_phase_naming",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_agent_skills",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L46",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_claude_md_path",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L47",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_mode",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L48",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_granularity",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L49",
+      "weight": 1,
+      "source": "planning_config_json",
+      "target": "planning_config_graphify",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L10",
+      "weight": 1,
+      "source": "planning_config_git",
+      "target": "planning_config_git_branching_strategy",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L11",
+      "weight": 1,
+      "source": "planning_config_git",
+      "target": "planning_config_git_phase_branch_template",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L12",
+      "weight": 1,
+      "source": "planning_config_git",
+      "target": "planning_config_git_milestone_branch_template",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L13",
+      "weight": 1,
+      "source": "planning_config_git",
+      "target": "planning_config_git_quick_branch_template",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L16",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_research",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L17",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_plan_check",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L18",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_verifier",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L19",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_nyquist_validation",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L20",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_auto_advance",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_node_repair",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L22",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_node_repair_budget",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_ui_phase",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L24",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_ui_safety_gate",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L25",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_ai_integration_phase",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L26",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_tdd_mode",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L27",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_text_mode",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L28",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_research_before_questions",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L29",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_discuss_mode",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L30",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_skip_discuss",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L31",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_code_review",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L32",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_code_review_depth",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L33",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_code_review_command",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L34",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_pattern_mapper",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L35",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_plan_bounce",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L36",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_plan_bounce_script",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_plan_bounce_passes",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L38",
+      "weight": 1,
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_auto_prune_state",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L41",
+      "weight": 1,
+      "source": "planning_config_hooks",
+      "target": "planning_config_hooks_context_warnings",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/config.json",
+      "source_location": "L50",
+      "weight": 1,
+      "source": "planning_config_graphify",
+      "target": "planning_config_graphify_enabled",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L2",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_project",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L19",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_technology_stack",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_languages",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L26",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_runtime",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L31",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_frameworks",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L38",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_key_dependencies",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L44",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_configuration",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L52",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_platform_requirements",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L63",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_conventions",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L65",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_overview",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L66",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_naming_patterns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L76",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_code_style",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L85",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_import_organization",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L90",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_async_patterns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L91",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_error_handling",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L98",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_dom_interaction_patterns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L103",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_language_mix",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L109",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_function_design",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L110",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_module_design",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L114",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_architecture",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L116",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_pattern_overview",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L121",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_layers",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L142",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_data_flow",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L146",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_key_abstractions",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L156",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_entry_points",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L163",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_error_handling_163",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L167",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_cross_cutting_concerns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L171",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_project_skills",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L177",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_gsd_workflow_enforcement",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L192",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "meniu_3d_claude_developer_profile",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L10",
+      "weight": 1,
+      "source": "meniu_3d_claude_project",
+      "target": "meniu_3d_claude_constraints",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "readme_md",
+      "target": "meniu_3d_readme_smart_meniu_3d",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "weight": 1,
+      "source": "meniu_3d_readme_smart_meniu_3d",
+      "target": "meniu_3d_readme_stack",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_project_md",
+      "target": "planning_project_smart_meniu_3d",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "planning_project_smart_meniu_3d",
+      "target": "planning_project_what_this_is",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L7",
+      "weight": 1,
+      "source": "planning_project_smart_meniu_3d",
+      "target": "planning_project_core_value",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L11",
+      "weight": 1,
+      "source": "planning_project_smart_meniu_3d",
+      "target": "planning_project_requirements",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L34",
+      "weight": 1,
+      "source": "planning_project_smart_meniu_3d",
+      "target": "planning_project_context",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L43",
+      "weight": 1,
+      "source": "planning_project_smart_meniu_3d",
+      "target": "planning_project_constraints",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L50",
+      "weight": 1,
+      "source": "planning_project_smart_meniu_3d",
+      "target": "planning_project_key_decisions",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L61",
+      "weight": 1,
+      "source": "planning_project_smart_meniu_3d",
+      "target": "planning_project_evolution",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L13",
+      "weight": 1,
+      "source": "planning_project_requirements",
+      "target": "planning_project_validated",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "planning_project_requirements",
+      "target": "planning_project_active",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/PROJECT.md",
+      "source_location": "L26",
+      "weight": 1,
+      "source": "planning_project_requirements",
+      "target": "planning_project_out_of_scope",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_requirements_md",
+      "target": "planning_requirements_requirements_smart_meniu_3d",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L6",
+      "weight": 1,
+      "source": "planning_requirements_requirements_smart_meniu_3d",
+      "target": "planning_requirements_v1_requirements",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L30",
+      "weight": 1,
+      "source": "planning_requirements_requirements_smart_meniu_3d",
+      "target": "planning_requirements_v2_requirements",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L43",
+      "weight": 1,
+      "source": "planning_requirements_requirements_smart_meniu_3d",
+      "target": "planning_requirements_out_of_scope",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L53",
+      "weight": 1,
+      "source": "planning_requirements_requirements_smart_meniu_3d",
+      "target": "planning_requirements_traceability",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "planning_requirements_v1_requirements",
+      "target": "planning_requirements_ar_core_implementat",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L17",
+      "weight": 1,
+      "source": "planning_requirements_v1_requirements",
+      "target": "planning_requirements_ui_overlay_implementat",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L24",
+      "weight": 1,
+      "source": "planning_requirements_v1_requirements",
+      "target": "planning_requirements_deploy_acces_active",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L32",
+      "weight": 1,
+      "source": "planning_requirements_v2_requirements",
+      "target": "planning_requirements_multi_produs",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/REQUIREMENTS.md",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "planning_requirements_v2_requirements",
+      "target": "planning_requirements_ux_avansat",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_roadmap_md",
+      "target": "planning_roadmap_roadmap_smart_meniu_3d",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "planning_roadmap_roadmap_smart_meniu_3d",
+      "target": "planning_roadmap_overview",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L7",
+      "weight": 1,
+      "source": "planning_roadmap_roadmap_smart_meniu_3d",
+      "target": "planning_roadmap_phases",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L16",
+      "weight": 1,
+      "source": "planning_roadmap_roadmap_smart_meniu_3d",
+      "target": "planning_roadmap_phase_details",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L77",
+      "weight": 1,
+      "source": "planning_roadmap_roadmap_smart_meniu_3d",
+      "target": "planning_roadmap_progress",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L18",
+      "weight": 1,
+      "source": "planning_roadmap_phase_details",
+      "target": "planning_roadmap_phase_1_structură_setup",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L28",
+      "weight": 1,
+      "source": "planning_roadmap_phase_details",
+      "target": "planning_roadmap_phase_2_model_3d",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "planning_roadmap_phase_details",
+      "target": "planning_roadmap_phase_3_image_target",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L46",
+      "weight": 1,
+      "source": "planning_roadmap_phase_details",
+      "target": "planning_roadmap_phase_4_ar_image_tracking",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L56",
+      "weight": 1,
+      "source": "planning_roadmap_phase_details",
+      "target": "planning_roadmap_phase_5_ui_overlay",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/ROADMAP.md",
+      "source_location": "L66",
+      "weight": 1,
+      "source": "planning_roadmap_phase_details",
+      "target": "planning_roadmap_phase_6_deploy_qr",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_state_md",
+      "target": "planning_state_project_state",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "planning_state_project_state",
+      "target": "planning_state_project_reference",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L10",
+      "weight": 1,
+      "source": "planning_state_project_state",
+      "target": "planning_state_current_position",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L19",
+      "weight": 1,
+      "source": "planning_state_project_state",
+      "target": "planning_state_performance_metrics",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "planning_state_project_state",
+      "target": "planning_state_accumulated_context",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L54",
+      "weight": 1,
+      "source": "planning_state_project_state",
+      "target": "planning_state_deferred_items",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L61",
+      "weight": 1,
+      "source": "planning_state_project_state",
+      "target": "planning_state_session_continuity",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L39",
+      "weight": 1,
+      "source": "planning_state_accumulated_context",
+      "target": "planning_state_decisions",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "planning_state_accumulated_context",
+      "target": "planning_state_pending_todos",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/STATE.md",
+      "source_location": "L49",
+      "weight": 1,
+      "source": "planning_state_accumulated_context",
+      "target": "planning_state_blockers_concerns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_codebase_architecture_md",
+      "target": "codebase_architecture_architecture",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "codebase_architecture_architecture",
+      "target": "codebase_architecture_pattern_overview",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L15",
+      "weight": 1,
+      "source": "codebase_architecture_architecture",
+      "target": "codebase_architecture_layers",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "codebase_architecture_architecture",
+      "target": "codebase_architecture_data_flow",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L79",
+      "weight": 1,
+      "source": "codebase_architecture_architecture",
+      "target": "codebase_architecture_key_abstractions",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L96",
+      "weight": 1,
+      "source": "codebase_architecture_architecture",
+      "target": "codebase_architecture_entry_points",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L108",
+      "weight": 1,
+      "source": "codebase_architecture_architecture",
+      "target": "codebase_architecture_error_handling",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/ARCHITECTURE.md",
+      "source_location": "L117",
+      "weight": 1,
+      "source": "codebase_architecture_architecture",
+      "target": "codebase_architecture_cross_cutting_concerns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_codebase_concerns_md",
+      "target": "codebase_concerns_codebase_concerns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L7",
+      "weight": 1,
+      "source": "codebase_concerns_codebase_concerns",
+      "target": "codebase_concerns_tech_debt",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L41",
+      "weight": 1,
+      "source": "codebase_concerns_codebase_concerns",
+      "target": "codebase_concerns_known_bugs",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L63",
+      "weight": 1,
+      "source": "codebase_concerns_codebase_concerns",
+      "target": "codebase_concerns_security_considerations",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L85",
+      "weight": 1,
+      "source": "codebase_concerns_codebase_concerns",
+      "target": "codebase_concerns_performance_bottlenecks",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L107",
+      "weight": 1,
+      "source": "codebase_concerns_codebase_concerns",
+      "target": "codebase_concerns_fragile_areas",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L134",
+      "weight": 1,
+      "source": "codebase_concerns_codebase_concerns",
+      "target": "codebase_concerns_scaling_limits",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L148",
+      "weight": 1,
+      "source": "codebase_concerns_codebase_concerns",
+      "target": "codebase_concerns_dependencies_at_risk",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L167",
+      "weight": 1,
+      "source": "codebase_concerns_codebase_concerns",
+      "target": "codebase_concerns_missing_critical_features",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONCERNS.md",
+      "source_location": "L183",
+      "weight": 1,
+      "source": "codebase_concerns_codebase_concerns",
+      "target": "codebase_concerns_test_coverage_gaps",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_codebase_conventions_md",
+      "target": "codebase_conventions_coding_conventions",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_overview",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L11",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_naming_patterns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L34",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_code_style",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L53",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_import_organization",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L67",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_async_patterns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L113",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_error_handling",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L131",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_dom_interaction_patterns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L140",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_language_mix",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L152",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_function_design",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L164",
+      "weight": 1,
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_module_design",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L73",
+      "weight": 1,
+      "source": "codebase_conventions_async_patterns",
+      "target": "codebase_conventions_codeblock_1",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L85",
+      "weight": 1,
+      "source": "codebase_conventions_async_patterns",
+      "target": "codebase_conventions_codeblock_2",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L90",
+      "weight": 1,
+      "source": "codebase_conventions_async_patterns",
+      "target": "codebase_conventions_codeblock_3",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/CONVENTIONS.md",
+      "source_location": "L97",
+      "weight": 1,
+      "source": "codebase_conventions_async_patterns",
+      "target": "codebase_conventions_codeblock_4",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_codebase_integrations_md",
+      "target": "codebase_integrations_external_integrations",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_cdn_libraries",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_data_storage",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L40",
+      "weight": 1,
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_authentication_identity",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_device_apis",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L55",
+      "weight": 1,
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_monitoring_observability",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L64",
+      "weight": 1,
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_ci_cd_deployment",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L72",
+      "weight": 1,
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_environment_configuration",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L80",
+      "weight": 1,
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_webhooks_callbacks",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/INTEGRATIONS.md",
+      "source_location": "L88",
+      "weight": 1,
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_external_data_sources",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_codebase_stack_md",
+      "target": "codebase_stack_technology_stack",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "codebase_stack_technology_stack",
+      "target": "codebase_stack_languages",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L15",
+      "weight": 1,
+      "source": "codebase_stack_technology_stack",
+      "target": "codebase_stack_runtime",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L25",
+      "weight": 1,
+      "source": "codebase_stack_technology_stack",
+      "target": "codebase_stack_frameworks",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L41",
+      "weight": 1,
+      "source": "codebase_stack_technology_stack",
+      "target": "codebase_stack_key_dependencies",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L56",
+      "weight": 1,
+      "source": "codebase_stack_technology_stack",
+      "target": "codebase_stack_configuration",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STACK.md",
+      "source_location": "L71",
+      "weight": 1,
+      "source": "codebase_stack_technology_stack",
+      "target": "codebase_stack_platform_requirements",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_codebase_structure_md",
+      "target": "codebase_structure_codebase_structure",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "codebase_structure_codebase_structure",
+      "target": "codebase_structure_directory_layout",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L30",
+      "weight": 1,
+      "source": "codebase_structure_codebase_structure",
+      "target": "codebase_structure_directory_purposes",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L55",
+      "weight": 1,
+      "source": "codebase_structure_codebase_structure",
+      "target": "codebase_structure_key_file_locations",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L80",
+      "weight": 1,
+      "source": "codebase_structure_codebase_structure",
+      "target": "codebase_structure_naming_conventions",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L99",
+      "weight": 1,
+      "source": "codebase_structure_codebase_structure",
+      "target": "codebase_structure_where_to_add_new_code",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L121",
+      "weight": 1,
+      "source": "codebase_structure_codebase_structure",
+      "target": "codebase_structure_special_directories",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/STRUCTURE.md",
+      "source_location": "L7",
+      "weight": 1,
+      "source": "codebase_structure_directory_layout",
+      "target": "codebase_structure_codeblock_1",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "planning_codebase_testing_md",
+      "target": "codebase_testing_testing_patterns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_current_state",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L11",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_test_framework",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L32",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_what_playwright_is_suited_for_here",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L42",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_recommended_test_structure_not_yet_implemented",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L57",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_recommended_test_patterns",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L97",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_mocking",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L111",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_playwright_configuration_recommended_setup",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L145",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_coverage",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L153",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_test_types",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L168",
+      "weight": 1,
+      "source": "codebase_testing_testing_patterns",
+      "target": "codebase_testing_manual_test_checklist",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L22",
+      "weight": 1,
+      "source": "codebase_testing_test_framework",
+      "target": "codebase_testing_codeblock_1",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "codebase_testing_recommended_test_structure_not_yet_implemented",
+      "target": "codebase_testing_codeblock_2",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L60",
+      "weight": 1,
+      "source": "codebase_testing_recommended_test_patterns",
+      "target": "codebase_testing_codeblock_3",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L71",
+      "weight": 1,
+      "source": "codebase_testing_recommended_test_patterns",
+      "target": "codebase_testing_codeblock_4",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L87",
+      "weight": 1,
+      "source": "codebase_testing_recommended_test_patterns",
+      "target": "codebase_testing_codeblock_5",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L115",
+      "weight": 1,
+      "source": "codebase_testing_playwright_configuration_recommended_setup",
+      "target": "codebase_testing_codeblock_6",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".planning/codebase/TESTING.md",
+      "source_location": "L133",
+      "weight": 1,
+      "source": "codebase_testing_playwright_configuration_recommended_setup",
+      "target": "codebase_testing_codeblock_7",
+      "confidence_score": 1
+    }
+  ]
+}
