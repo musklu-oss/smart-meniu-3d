@@ -45,5 +45,8 @@
   "agent_skills": {},
   "claude_md_path": "./CLAUDE.md",
   "mode": "yolo",
-  "granularity": "coarse"
+  "granularity": "coarse",
+  "graphify": {
+    "enabled": true
+  }
 }
